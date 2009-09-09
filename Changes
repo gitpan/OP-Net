@@ -1,0 +1,3 @@
+2009-09-09: .314
+  - Split aux network datatypes from OP into their own distro
+  - Added OP::Subnet assertable object class
