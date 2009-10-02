@@ -131,7 +131,7 @@ Returns a new OP::Subnet instance which encapsulates the received value.
 
 =item * $self->list
 
-Return a new OP::Array containing each IP in self's range.
+Return a new L<OP::Array> containing each IP in self's range.
 
   $subnet->list->each( sub {
     my $ip = shift;
@@ -143,8 +143,8 @@ Return a new OP::Array containing each IP in self's range.
 
 =head1 SEE ALSO
 
-L<OP::Str>, L<Net::Subnets>
+L<OP::Str>, L<OP::Array>, L<Net::Subnets>
 
-This file is part of L<OP>.
+This file is part of L<OP::Net>.
 
 =cut

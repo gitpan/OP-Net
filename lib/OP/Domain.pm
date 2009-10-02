@@ -23,7 +23,6 @@ use base qw| OP::Str |;
 use constant AssertFailureMessage
   => "Received value is not a domain name";
 
-# method assert(OP::Class $class: *@rules) {
 sub assert {
   my $class = shift;
   my @rules = @_;
@@ -40,7 +39,6 @@ sub assert {
   return $class->__assertClass()->new(%parsed);
 };
 
-# method new(OP::Class $class: Str $string) {
 sub new {
   my $class = shift;
   my $string = shift;
@@ -109,6 +107,6 @@ Returns a new OP::Domain instance which encapsulates the received value.
 
 L<OP::Str>, L<Data::Validate::Domain>
 
-This file is part of L<OP>.
+This file is part of L<OP::Net>.
 
 =cut

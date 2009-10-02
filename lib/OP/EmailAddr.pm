@@ -23,7 +23,6 @@ use base qw| Email::Address OP::Array |;
 use constant AssertFailureMessage
   => "Received value is not an email address";
 
-# method assert(OP::Class $class: *@rules) {
 sub assert {
   my $class = shift;
   my @rules = @_;
@@ -46,7 +45,6 @@ sub assert {
   return $class->__assertClass()->new(%parsed);
 };
 
-# method new(OP::Class $class: *@components) {
 sub new {
   my $class = shift;
   my @components = @_;
@@ -63,7 +61,6 @@ sub new {
   return bless $self, $class;
 };
 
-# method isa(OP::Class $class: Str $what) {
 sub isa {
   my $class = shift;
   my $what = shift;
@@ -146,6 +143,6 @@ See L<Email::Address> for RFC-related methods inherited by this class.
 
 L<OP::Array>, L<Data::Validate::Email>
 
-This file is part of L<OP>.
+This file is part of L<OP::Net>.
 
 =cut

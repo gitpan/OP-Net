@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                OP-Net
-version:             0.314
+version:             0.317
 abstract:            ~
 license:             open_source
 author:              
@@ -14,7 +14,7 @@ requires:
     Data::Validate::URI:           0.05
     Email::Address:                1.889
     Net::Subnets:                  0.21
-    OP:                            0.313
+    OP:                            0.317
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.3.html
     version: 1.3

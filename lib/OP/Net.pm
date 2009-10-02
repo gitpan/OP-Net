@@ -11,7 +11,7 @@
 
 package OP::Net;
 
-our $VERSION = '0.314';
+our $VERSION = '0.317';
 
 use strict;
 use warnings;
@@ -32,7 +32,7 @@ OP::Net - Network datatypes for L<OP>
 
 =head1 VERSION
 
-This documentation is for version B<0.314> of OP::Net.
+This documentation is for version B<0.317> of OP::Net.
 
 =head1 SYNOPSIS
 
@@ -77,7 +77,7 @@ All classes are overloaded.
 
 =head1 COPYRIGHT
 
-  File: OP.pm
+  File: OP/Net.pm
  
   Copyright (c) 2009 TiVo Inc.
  
